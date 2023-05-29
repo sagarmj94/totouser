@@ -1,13 +1,11 @@
-import Container from "react-bootstrap/esm/Container";
 import "./App.css";
-import Navigation from "./component/Navigation";
-import Caritage from "./component/Caritage";
+import React from "react";
+import CardUser from "./component/CardUser";
 
 function App() {
   return (
     <>
-      <Navigation />
-      <Caritage />
+      <CardUser />
     </>
   );
 }
